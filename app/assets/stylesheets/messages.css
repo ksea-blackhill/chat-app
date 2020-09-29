@@ -1,0 +1,130 @@
+.wrapper{
+  display: flex;
+}
+.side-bar{
+  width: 300px;
+  background-color: #253141;
+  height: 100vh;
+}
+.side-top{
+  height:100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-name a{
+  color:#FAFAFA;
+  text-decoration: none;
+  font-size: 16px;
+}
+.make-chat a{
+  font-size: 10px;
+  color:deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+.side-main{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+.room-name{
+  padding: 20px 0 40px;
+}
+.side-main a{
+  text-decoration:none;
+  color: white;
+}
+.main-chat{
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+  height: 100vh;
+}
+.top-content{
+  height:100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-name {
+  font-size:24px;
+  color: #333;
+}
+.chat-end a{
+  color: darkred;
+  border: 1px solid darkred;
+  text-decoration:none;
+  padding: 20px;
+  margin-top:40px;
+}
+.chat-center{
+  background-color: #FAFAFA;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+.user-time{
+  display: flex;
+  padding: 10px 0;
+}
+.user{
+  font-size: 16px;
+  color: #434A54;
+}
+.time{
+  font-size: 12px;
+  color: #999;
+  padding-left:10px;
+}
+.messages{
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+}
+
+.bottom-content{
+  height:90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
+
+.form{
+  display: flex;
+}
+.input-form{
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.form-message{
+  padding-left:10px;
+  height: 50px;
+  width: 100%;
+  border:none;
+}
+.form-image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+.form-submit{
+  font-size: 16px;
+  color: white;
+  background-color: #38AEF0;
+  margin-left: 15px;
+  border:none;
+  padding: 0 20px;
+  height:50px;
+}
